@@ -1,0 +1,38 @@
+p{
+    border: 10px black;
+    height: 300px;
+    width: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    background-color: blue;
+    animation: colorchange 4s infinite;
+}
+p:hover{
+    opacity: 0;
+}
+
+@keyframes colorchange{
+    0%{
+        left: 0px;
+        top: 0px;
+        background: gray;
+    }
+
+    25%{
+        left: 200px;
+        top: 200px;
+        background: yellow;
+    }
+
+    50%{
+        left: 400px;
+        top: 400px;
+        background: black;
+    }
+    75%{
+        top: 0px;
+        left: 0px;
+        background: lawngreen;
+    }
+}

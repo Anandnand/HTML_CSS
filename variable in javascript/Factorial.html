@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function factorial(){
+            let num=document.getElementById('number').value;
+            let n=num;
+            let sum=1;
+            for (let i = 1; i<=n; i++) {
+              sum=sum*i
+              console.log(sum)
+            }
+            
+        } 
+    </script>
+</head>
+<body>
+    <label>enter a number:</label>
+    <input type="text" id="number" name="un"/>
+    <button type="button" onclick="factorial()">click me</button>
+    
+</body>
+</html>

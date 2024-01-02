@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function printtables(){
+            let num=document.getElementById('number').value;
+            for (let i = 1; i<=10; i++) {
+                console.log(num+'*'+i+'='+(num*i))
+            }
+        } 
+    </script>
+</head>
+<body>
+    <label>enter a number:</label>
+    <input type="text" id="number" name="un"/>
+    <button type="button" onclick="printtables()">click me</button>
+    
+</body>
+</html>

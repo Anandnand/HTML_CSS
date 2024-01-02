@@ -1,0 +1,14 @@
+p{
+    height:300px;
+    width: 300px;
+    background: red;
+    border-radius: 500px;
+    border-top: 10px dotted blue;
+    border-bottom:  10px solid black;
+border-left: 10px yellow;
+border-right: green;
+font-size: 30px;
+font-weight: bold;
+    
+    
+}

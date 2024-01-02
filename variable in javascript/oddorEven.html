@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+function oddoreven(){
+let num=document.getElementById('number').value;
+if(num%2==0){
+    console.log(num+" is even number")
+} else{ 
+console.log(num+" is odd number")
+}
+}
+    </script>
+</head>
+<body>
+    <label>Enter a number:</label>
+    <input type="text" id="number" name="un"/>
+    <button type="button" onclick="oddoreven()">click me</button>
+</body>
+</html>
